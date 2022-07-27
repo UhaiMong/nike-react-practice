@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <!-- Bootstrap CSS CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- Custom CSS LINK -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header class="bg-header h-100">
+            <!-- Nav bar section -->
+            <section class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <img class="img-fluid w-sm-50 w-25"
+                        src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/icons/Logo.png"
+                        alt="brand logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- menus -->
+                    <div class="collapse navbar-collapse custom-nav-flex float-end" id="navbarNav">
+                        <ul class="navbar-nav fs-4">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- menus ended -->
+                </nav>
+                <button type="button" class="btn btn-secondary position-relative mt-5 position-fixed" data-bs-toggle="tooltip" data-bs-html="true"
+                    data-bs-title="">
+                    Tooltip with HTML
+                </button>
+
+            </section>
+            <!-- Nav bar ended -->
+            <!-- Slider -->
+            <section class="container">
+                <div class="d-flex align-items-center justify-content-between p-5 flex-md-row flex-column-reverse">
+                    <div class="w-100">
+                        <img class="img-fluid w-75 h-75"
+                            src="https://raw.githubusercontent.com/UhaiMong/images/e5fbfe9cba67d98a40237dbe79405e6e5c3a6020/shoes/Group%2033092.png"
+                            alt="img-1">
+                    </div>
+                    <div class="w-100">
+                        <h1 class="text-uppercase fs-1 fw-bold"><span class="texts-color">nike react</span><br> <span
+                                class="price">infinity run 2</span></h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, tenetur deleniti? Dignissimos
+                            id maxime sit rem numquam.</p>
+                        <button class="btn rounded-3 bg-button px-1 fs-5 text-light"><img class="w-25"
+                                src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/icons/shopping-cart%201.png"
+                                alt=""> Buy Now</button>
+                    </div>
+                </div>
+            </section>
+            <!-- Slider ended -->
+        </header>
+
+        <!-- Header section ended -->
+
+        <main class="container mt-5">
+            <h1 class="text-uppercase fs-2 texts-color fw-bold mb-5">Casual shoes</h1>
+            <!-- Card section -->
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Single card -->
+                <div class="col">
+                    <div class="card h-100 rounded-4 border-0 shadow-lg d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="bg-produc m-3 rounded-4">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/e5fbfe9cba67d98a40237dbe79405e6e5c3a6020/shoes/image%205.png"
+                                    class="card-img-top" alt="shoes image 1">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title texts-color fw-semibold">Nike shoes</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Inventore incidunt iste laborum accusantium optio, sunt consequuntur facere
+                                    modi praesentium, distinctio nobis nostrum nulla vel fugiat quisquam repudiandae
+                                    laboriosam nihil ipsa?</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between py-3 px-4">
+                            <h1 class="price">$300</h1>
+                            <button class="btn rounded-3 bg-button px-1 fs-5 text-light"><img class="w-25"
+                                    src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/icons/shopping-cart%201.png"
+                                    alt=""> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single card -->
+                <div class="col">
+                    <div class="card h-100 rounded-4 border-0 shadow-lg d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="bg-produc m-3 rounded-4">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/e5fbfe9cba67d98a40237dbe79405e6e5c3a6020/shoes/Daco_1703273%201.png"
+                                    class="card-img-top" alt="shoes image 2">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title texts-color fw-semibold">Sneakers Skate Shoe</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between py-3 px-4">
+                            <h1 class="price">$300</h1>
+                            <button class="btn rounded-3 bg-button px-1 fs-5 text-light"><img class="w-25"
+                                    src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/icons/shopping-cart%201.png"
+                                    alt=""> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single card -->
+                <div class="col">
+                    <div class="card h-100 rounded-4 border-0 shadow-lg d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="bg-produc m-3 rounded-4">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/e5fbfe9cba67d98a40237dbe79405e6e5c3a6020/shoes/pngegg%201.png"
+                                    class="card-img-top" alt="shoes image 3">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title texts-color fw-semibold">Sneakers Basketball shoe</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                        <!-- button -->
+                        <div class="d-flex align-items-center justify-content-between py-3 px-4">
+                            <h1 class="price">$300</h1>
+                            <button class="btn rounded-3 bg-button px-1 fs-5 text-light"><img class="w-25"
+                                    src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/icons/shopping-cart%201.png"
+                                    alt=""> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card for formal shoe -->
+            <h1 class="text-uppercase fs-2 texts-color fw-bold mb-5 mt-5">Casual shoes</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <!-- Single card -->
+                <div class="col">
+                    <div class="card h-100 rounded-4 border-0 shadow d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="m-3 rounded-4">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/e5fbfe9cba67d98a40237dbe79405e6e5c3a6020/shoes/Mask%20Group.png"
+                                    class="card-img-top" alt="shoes image 3">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title texts-color fw-semibold">Presige High-Cut Leather</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Inventore incidunt</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between py-3 px-4">
+                            <h1 class="price">$300</h1>
+                            <button class="btn rounded-3 bg-button px-1 fs-5 text-light"><img class="w-25"
+                                    src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/icons/shopping-cart%201.png"
+                                    alt=""> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 rounded-4 border-0 shadow d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="m-3 rounded-4">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/e5fbfe9cba67d98a40237dbe79405e6e5c3a6020/shoes/Rectangle%2038.png"
+                                    class="card-img-top" alt="shoes image 4">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title texts-color fw-semibold">Slip-On Formal Shoe</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Inventore incidunt</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between py-3 px-4">
+                            <h1 class="price">$300</h1>
+                            <button class="btn rounded-3 bg-button px-1 fs-5 text-light"><img class="w-25"
+                                    src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/icons/shopping-cart%201.png"
+                                    alt=""> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 rounded-4 border-0 shadow d-flex flex-column justify-content-between">
+                        <div>
+                            <div class="m-3 rounded-4">
+                                <img src="https://raw.githubusercontent.com/UhaiMong/images/e5fbfe9cba67d98a40237dbe79405e6e5c3a6020/shoes/Rectangle%2039.png"
+                                    class="card-img-top" alt="shoes image 6">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title texts-color fw-semibold">Office boss</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Inventore incidunt</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between py-3 px-4">
+                            <h1 class="price">$300</h1>
+                            <button class="btn rounded-3 bg-button px-1 fs-5 text-light"><img class="w-25"
+                                    src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/icons/shopping-cart%201.png"
+                                    alt=""> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card for formal shoe ended -->
+
+            <!-- Card ended -->
+
+            <!-- Customer  -->
+
+            <section class="mt-5" id="customerShopID">
+                <div class="d-flex align-items-center justify-content-between flex-column-reverse flex-lg-row">
+                    <div class="mt-lg-5">
+                        <div class="row row-cols-1 g-4 mt-5">
+                            <div class="col">
+                                <div
+                                    class="d-flex flex-column flex-md-row align-items-center justify-content-between shadow">
+                                    <div class="p-3">
+                                        <img style="width: 70px;"
+                                            src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/images/house.png"
+                                            alt="house">
+                                    </div>
+                                    <div class="p-3">
+                                        <h1 class="texts-color">Find the Perfect Fit</h1>
+                                        <p>Everybody is different, which is why we
+                                            offer styles for every body.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div
+                                    class="d-flex flex-column flex-md-row align-items-center justify-content-between shadow">
+                                    <div class="p-3">
+                                        <img style="width: 70px;"
+                                            src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/images/box.png"
+                                            alt="question">
+                                    </div>
+                                    <div class="p-3">
+                                        <h1 class="texts-color">Free Exchange</h1>
+                                        <p>One of the many reasons you can shop
+                                            with peace of mind.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div
+                                    class="d-flex flex-column flex-md-row align-items-center justify-content-between shadow">
+                                    <div class="p-3">
+                                        <img style="width: 70px;"
+                                            src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/images/question.png"
+                                            alt="question">
+                                    </div>
+                                    <div class="p-3">
+                                        <h1 class="texts-color">Contact Our Seller</h1>
+                                        <p>They are here to help you. That's quite
+                                            literally what we pay them for.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <img class="img-fluid"
+                            src="https://raw.githubusercontent.com/UhaiMong/images/master/penguin-fashion/images/shopping.png"
+                            alt="Customer shopping">
+                    </div>
+                </div>
+            </section>
+            <!-- Customer ended -->
+        </main>
+        <footer class="container-fluid bg-dark mt-5">
+            <div class="text-center text-light p-5">
+                &copy;2022 All right reserved
+            </div>
+            <form
+                class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-around w-75 m-auto">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label text-light">Your Email Address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Email" required>
+                    <div id="emailHelp" class="form-text text-primary">We'll never share your email with anyone else.
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <!-- Comments -->
+                <div class="mb-3">
+                    <div class="form-floating">
+                        <textarea class="form-control" style="resize: none ; height: 100px; overflow-y: scroll;"
+                            placeholder="Leave a comment here" id="floatingTextarea2" required></textarea>
+                        <label for="floatingTextarea2">Comments</label>
+                    </div>
+                </div>
+                <!-- comments end -->
+            </form>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>

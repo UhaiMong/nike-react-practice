@@ -1,0 +1,26 @@
+:root{
+    --bg-header: #FFF9F4;
+    --bg-button: #3848D2;
+    --bg-products: #F1F1F1;
+    --text-h-color: #363958;
+    --price: #FA804C;
+
+}
+.custom-nav-flex{
+    justify-content: flex-end;
+}
+.bg-header{
+    background-color: var(--bg-header);
+}
+.bg-produc{
+    background-color: var(--bg-products);
+}
+.price{
+    color: var(--price);
+}
+.texts-color{
+    color: var(--text-h-color);
+}
+.bg-button{
+    background-color: var(--bg-button);
+}
